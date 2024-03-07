@@ -42,4 +42,5 @@ class Game: #Classen einbauen wird einfacher zu erwitern
             pygame.display.update() #das ist für programm zu zeigen 
             self.clock.tick(60)	# das ist um FPS fix zu stellen 
 
-Game().run()
+g = Game()
+g.run()
